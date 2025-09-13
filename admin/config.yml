@@ -36,25 +36,31 @@ collections:
 
   - name: "menu"
     label: "Menu"
-    file: "content/menu.json"
-    fields:
-      - { name: "tabs", label: "Tabs", widget: "list" }
-      - name: "dishes"
-        label: "Dishes"
-        widget: "list"
+    files:
+      - file: "content/menu.json"
+        label: "Menu Items"
+        name: "menu"
         fields:
-          - { name: "tab", label: "Tab", widget: "string" }
-          - { name: "name", label: "Name", widget: "string" }
-          - { name: "desc", label: "Description", widget: "text" }
-          - { name: "tags", label: "Tags", widget: "list", required: false }
+          - { name: "tabs", label: "Tabs", widget: "list" }
+          - name: "dishes"
+            label: "Dishes"
+            widget: "list"
+            fields:
+              - { name: "tab", label: "Tab", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+              - { name: "tags", label: "Tags", widget: "list", required: false }
 
   - name: "gallery"
     label: "Gallery"
-    file: "content/gallery.json"
-    fields:
-      - name: "images"
-        label: "Images"
-        widget: "list"
+    files:
+      - file: "content/gallery.json"
+        label: "Gallery Images"
+        name: "gallery"
         fields:
-          - { name: "src", label: "Image URL", widget: "string" }
-          - { name: "alt", label: "Alt Text", widget: "string" }
+          - name: "images"
+            label: "Images"
+            widget: "list"
+            fields:
+              - { name: "src", label: "Image URL", widget: "string" }
+              - { name: "alt", label: "Alt Text", widget: "string" }
