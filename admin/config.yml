@@ -22,9 +22,9 @@ collections:
             label: "Hours"
             widget: "object"
             fields:
-              - { name: "lunch",  label: "Lunch",  widget: "string" }
+              - { name: "lunch", label: "Lunch", widget: "string" }
               - { name: "dinner", label: "Dinner", widget: "string" }
-              - { name: "notes",  label: "Notes",  widget: "string", required: false }
+              - { name: "notes", label: "Notes", widget: "string", required: false }
           - name: "sellingPoints"
             label: "Selling Points"
             widget: "list"
@@ -43,7 +43,7 @@ collections:
         label: "Dishes"
         widget: "list"
         fields:
-          - { name: "tab",  label: "Tab",  widget: "string" }
+          - { name: "tab", label: "Tab", widget: "string" }
           - { name: "name", label: "Name", widget: "string" }
           - { name: "desc", label: "Description", widget: "text" }
           - { name: "tags", label: "Tags", widget: "list", required: false }
