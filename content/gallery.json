@@ -1,0 +1,9 @@
+{
+  "images": [
+    { "src": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=1200&auto=format&fit=crop", "alt": "Tandoori chicken platter" },
+    { "src": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop", "alt": "Biryani served in handi" },
+    { "src": "https://images.unsplash.com/photo-1576402187878-974f70c890a5?q=80&w=1200&auto=format&fit=crop", "alt": "Assorted curries" },
+    { "src": "https://images.unsplash.com/photo-1604908177079-b774c10eaa2f?q=80&w=1200&auto=format&fit=crop", "alt": "Buffet spread" },
+    { "src": "https://images.unsplash.com/photo-1544025162-84f1ebd08aa5?q=80&w=1200&auto=format&fit=crop", "alt": "Naan bread basket" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Saffron Restaurant",
+  "tagline": "North Indian Cuisine & Fusion",
+  "address": "398 W. Army Trail Rd, #116, Bloomingdale, IL 60108",
+  "phone": "(847) 278-1955",
+  "email": "info@saffrondining.com",
+  "hours": {
+    "lunch": "Tue–Sun 11:30 AM – 2:30 PM",
+    "dinner": "Tue–Sun 5:00 PM – 10:00 PM",
+    "notes": "Closed Mondays (confirm latest hours)."
+  },
+  "sellingPoints": [
+    "Weekday & weekend lunch buffet",
+    "Fine-dining dinner experience",
+    "Full bar",
+    "Catering for weddings, birthdays, showers, and corporate events",
+    "Private room (~50 guests) subject to availability"
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/saffrondining/"
+  }
+}

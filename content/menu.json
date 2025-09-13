@@ -1,0 +1,19 @@
+{
+  "tabs": ["Dinner", "Buffet", "Bar", "Catering"],
+  "dishes": [
+    { "tab": "Dinner", "name": "Chicken Tikka Masala", "desc": "Tandoor-roasted chicken in creamy tomato sauce.", "tags": ["Med","GF"] },
+    { "tab": "Dinner", "name": "Paneer Butter Masala", "desc": "Cottage cheese in velvety tomato-cashew gravy.", "tags": ["Mild","Veg","GF"] },
+    { "tab": "Dinner", "name": "Lamb Rogan Josh", "desc": "Aromatic Kashmiri curry with tender lamb.", "tags": ["Hot","GF"] },
+    { "tab": "Dinner", "name": "Tandoori Mixed Grill", "desc": "Assortment of tandoori meats and vegetables.", "tags": ["Med","GF"] },
+    { "tab": "Dinner", "name": "Veg Biryani", "desc": "Fragrant basmati layered with spiced vegetables.", "tags": ["Med","Veg"] },
+    { "tab": "Dinner", "name": "Garlic Naan", "desc": "Hand-tossed bread with garlic and butter.", "tags": ["Contains Gluten"] },
+
+    { "tab": "Buffet", "name": "Rotating Selections", "desc": "Ask your server for today’s buffet highlights.", "tags": [] },
+
+    { "tab": "Bar", "name": "Signature Cocktail", "desc": "Classic spirit with Indian spice accents.", "tags": [] },
+
+    { "tab": "Catering", "name": "Silver Package", "desc": "2 curries, rice, naan, dessert", "tags": [] },
+    { "tab": "Catering", "name": "Gold Package", "desc": "3 curries, appetizers, rice, naan, dessert", "tags": [] },
+    { "tab": "Catering", "name": "Platinum Package", "desc": "Custom menu + live stations (venue permitting)", "tags": [] }
+  ]
+}
